@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'aniron';
+    src: url('aniron/anicb___.ttf');
+}
+ @font-face {
+    font-family: 'nancy';
+    src: url('nancy/partybusiness.ttf');
+}
+@font-face {
+    font-family: 'tengwar_annatar';
+    src: url('tengwar_annatar/tngani.ttf');
+}
+.optnavbar{
+    color: white !important;
+}
+.optnavbar:hover{
+    border-bottom: solid 4px ;
+
+}
+.colornav{
+    background-color: orange;
+    font-family: 'aniron';
+    min-height: 12vh;
+    position: relative;
+}
+.optcard{
+    background-color: black;
+    border: solid 5px;
+    border-color: black;
+}
+
+
+.montxt {
+    z-index: 1;
+    position: absolute;
+    color: white !important;
+    font-family: 'nancy';
+    font-size: 6vw;
+    top: 40%;
+    left: 12vw;
+    text-align:left;
+  }
+.tailletxt{
+    font-size: 3vw;
+}
+.tailleref{
+    font-size: 1.5vw;
+}
+
+.pillsparam{
+    font-size: 1.5vw;
+    font-family: 'aniron';
+    color: black;
+
+}
+.pillsparam:hover{
+    color:orange;
+
+}
+
+.fellwanted{
+    font-size: 2vw;
+    font-family: 'aniron';
+    text-align:center;
+    height: 20vh;
+    transform: translateY(7vh);
+}
+.redimhun{
+    width: 25%;
+}
+.redimlogo{
+    width: 210px;
+
+}
+
+
+
+
+
+
+
+
+
+.gandalf img{
+    width: 25vw;
+    height: 55%;
+    left: 20px;
+    opacity: 0.5;
+}
+.orange{
+    color:orange;
+}
+.carre {
+
+    width:22vw;
+	height:20%;
+    background:rgba(214, 220, 224, 0.85);
+    color: black;
+    display:block;
+    position: absolute; 
+    top: 10%; 
+    left: 1.7vw;
+    border-radius:10px;
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: 'nancy';
+    box-shadow: 0 0 5px 5px rgba(214, 220, 224, 0.85);
+}
+.carre-mort {
+
+    width:22vw;
+	height:20%;
+    color: orange;
+    display:block;
+    position: absolute; 
+    top: 10%; 
+    left: 1.7vw;
+    border-radius:10px;
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'nancy';
+}
+.opttxtclr{
+    color: white;
+    font-family: 'nancy';
+    font-size: 2.2vw;
+}
+.visible{
+    font-size: 4.2vw;
+    left: 7vw;
+    top: 19vw;
+    position: absolute;
+    color: white;
+    font-family: 'nancy';
+}
+.mort{
+    text-decoration: line-through orange;
+    
+}
+
+.invisible{
+    font-size: 10.2vw;
+    top: 100px;
+    position: absolute;
+    color: white;
+    font-family: 'nancy';
+}
+.gandalf img:hover + p{
+    display:none;
+}
+.gandalf img:hover + p + p{
+      display:none;
+}
+.gandalf img:hover + p + p + p{
+    display:block;
+}
+
+.carre:hover{
+    opacity:1;
+}
+
+.carre:hover + p{
+    display:none;
+}
+.carre:hover + p + p{
+      display:none;
+}
+.carre:hover {
+    display:none;
+}
+
+.gandalf img:hover{
+    opacity:1;
+}
+.fond{
+    background-image: url("photo/bg_light.png");
+    background-repeat: repeat, repeat;
+}
+
+.ptxtref{
+    text-align:left;
+    font-size: 1.25vw;
+    transform:translateX(5vw);
+}
+
+.coin_sauron{
+    height:auto;
+    width:12vw;
+}
+
+body{
+    background-repeat: repeat, repeat;
+    background-image: url("photo/bg_dark.png");
+}
+.symb{
+    font-family: tengwar_annatar;
+    color: orange;
+}
